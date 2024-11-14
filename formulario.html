@@ -1,0 +1,26 @@
+<!-- formulario.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANEXO III</title>
+</head>
+<body>
+    <h1>ANEXO III</h1>
+    <form id="formulario" method="POST" action="procesar.php">
+        <p>Salida Educativa/ Representación Institucional para alumnos/as menores de edad.</p>
+        <p>Autorización general para actividades en la Localidad</p>
+        
+        <p>Por la presente autorizo a <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellido" required>. DNI <input type="number" id="dni" name="dni" placeholder="Número de DNI" required>.  estudiante de <input type="number" id="anio" name="anio" placeholder="Año número" required> Año, sección <input type="text" id="seccion" name="seccion" required>. Propuesta Educativa <input type="text" id="propuesta" name="propuesta" required> a participar de Salidas Educativas que se lleven a cabo en la ciudad o distrito, sin necesidad de utilizar un medio de transporte, y siempre acompañado/a de docentes responsables. </p>
+        <p>La presente autorización es válida para actividades académicas, deportivas, culturales o comunitarias que se realicen durante el actual ciclo lectivo.</p>
+
+        <p>Fecha: <input type="date" name="bday" /></p>
+        <p>Firma, aclaración y DNI (padre, madre o adulto responsable): ………………………………………………….
+        ………………………………………………………………………………………………………………………………………………….</p>
+        <p><strong>Aclaración:</strong> El presente anexo se debe completar y firmar por única vez, tendrá validez para cada ocasión en la que se requiera durante el presente ciclo lectivo y será archivado en el Legajo de cada Estudiante.</p> 
+    <p>El mismo puede ser completado de forma digital, pero debe ser impreso y llevar la firma en original del adulto responsable. </p>
+            <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
